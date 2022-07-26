@@ -245,30 +245,5 @@ footer hr {
 
 /* for mobile device */
 @media only screen and (max-width: 688px) {
-
-    .section {
-        display: inline;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .black-box {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .blog {
-        width: 100%;
-        height: 100%;
-    }
-
-    .player-banner {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    footer {
-        grid-template-columns: repeat(1, 1fr);
-    }
+        
 }
