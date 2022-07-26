@@ -248,6 +248,8 @@ footer hr {
 
     .section {
         display: inline;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .black-box {
@@ -262,9 +264,11 @@ footer hr {
         height: 100%;
     }
 
-    .player-banner,
+    .player-banner {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-    .footer {
+    footer {
         grid-template-columns: repeat(1, 1fr);
     }
 }
